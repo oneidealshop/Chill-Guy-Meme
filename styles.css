@@ -1,0 +1,31 @@
+.article-section h2 {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.step-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.step-number {
+    flex-shrink: 0;
+}
+
+.step-content {
+    flex-grow: 1;
+}
+
+.step-title {
+    text-align: left;
+    white-space: nowrap;
+    margin: 0 0 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+    .step-title {
+        white-space: normal; /* 在移动端允许换行 */
+    }
+} 

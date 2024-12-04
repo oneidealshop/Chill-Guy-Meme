@@ -848,4 +848,55 @@ section:nth-child(even) .article-intro.with-image {
     .article-intro.with-image .article-image {
         width: 100%;
     }
+}
+
+/* Footer Styles */
+.footer {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-btn {
+    padding: 8px 16px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #666;
+    transition: all 0.3s ease;
+}
+
+.footer-btn:hover {
+    background-color: #eee;
+    color: #333;
+}
+
+/* 响应式设计 */
+@media (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-links {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .footer-btn {
+        width: 100%;
+    }
 } 

@@ -1,14 +1,4 @@
-# 简单专业的落地页项目
-
-这是一个简洁现代的落地页项目，适合展示产品或服务。
-
-## 功能特点
-
-- 响应式设计，适配所有设备尺寸
-- 现代简约的设计风格
-- 清晰的产品/服务展示区域
-- 醒目的行动召唤按钮(CTA)
-- 流畅的页面滚动体验
-- 优化的加载性能
-
-## 项目结构 
+What is Chill Guy?
+What is Chill Guy Meme?
+What is Chill Guy Coin?
+Find your answer here https://chillguyme.me/
